@@ -1,0 +1,6 @@
+
+regist_tableの作成
+create table regist_table (terminal_num int AUTO_INCREMENT PRIMARY KEY, reg_id text, android_id text, longi int, lati int);
+
+自動インクリメントをリセット
+alter table regist_table AUTO_INCREMENT=0
